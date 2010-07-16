@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo form_label('$1', '$2'); ?&gt;
+&lt;?php echo form_input('$2'${3:, ${4:set_value('$2')}}); ?&gt;$0</string>
+	<key>name</key>
+	<string>Input + Label</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>finput</string>
+	<key>uuid</key>
+	<string>5E2B159A-C862-4D8D-9089-C2195061A987</string>
+</dict>
+</plist>

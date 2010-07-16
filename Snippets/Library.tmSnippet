@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * $1
+ *
+ * @package $2
+ * @category CodeIgniter Library
+ * @author $TM_AUTHOR_NAME
+ * @link $TM_GITHUB_REPOSITORY$2
+ * @version ${3:0.0.1}
+ * @copyright Copyright (c) 2010, $TM_AUTHOR_NAME
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ **/
+class $2
+{
+	/**
+	 * The CodeIgniter object.
+	 *
+	 * @access private
+	 * @var object
+	 */
+	private \$_ci;
+	
+	/**
+	 * The Constructor!
+	 * 
+	 * @access public
+	 **/
+	public function __construct() 
+	{
+		${4:log_message('debug','$1 Initialized');
+		
+		// assign the CodeIgniter object to a private variable
+		\$this-&gt;_ci =&amp; get_instance();
+		}
+	} // End of __construct
+	
+	$0
+	
+} // End of $2 class
+
+/* End of file $TM_FILENAME */
+/* Location: ./application/libraries/$TM_FILENAME */</string>
+	<key>name</key>
+	<string>Library</string>
+	<key>tabTrigger</key>
+	<string>lib</string>
+	<key>uuid</key>
+	<string>33A6FA96-1726-4929-AC87-D21C7F3271E3</string>
+</dict>
+</plist>

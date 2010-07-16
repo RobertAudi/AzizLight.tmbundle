@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>alias -g $1="$0"</string>
+	<key>name</key>
+	<string>zsh global alias</string>
+	<key>scope</key>
+	<string>source.shell</string>
+	<key>tabTrigger</key>
+	<string>ag</string>
+	<key>uuid</key>
+	<string>66990C41-FDCC-433B-90B8-481F48EC9976</string>
+</dict>
+</plist>

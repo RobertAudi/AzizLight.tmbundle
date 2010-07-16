@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * El Constructor!
+ *
+ * @access public
+ * @author $TM_FULLNAME
+ */
+public function __construct()
+{
+	$0
+} // End of __construct</string>
+	<key>name</key>
+	<string>Class Constructor</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>__c</string>
+	<key>uuid</key>
+	<string>AB9BABB3-16A4-4562-82B7-3DB0EC5538ED</string>
+</dict>
+</plist>

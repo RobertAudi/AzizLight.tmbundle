@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/**
+ * El Destructor!
+ *
+ * @access public
+ * @author $TM_FULLNAME
+ */
+public function __destruct()
+{
+	$0
+} // End of __destruct</string>
+	<key>name</key>
+	<string>Class Destructor</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>__d</string>
+	<key>uuid</key>
+	<string>763FD789-6F30-4D9E-AF3F-98E31FC6695C</string>
+</dict>
+</plist>

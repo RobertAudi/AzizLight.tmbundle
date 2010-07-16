@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+
+class $1 extends ${2:Controller}
+{
+	/**
+	 * The Constructor!
+	 **/
+	public function __construct()
+	{
+		parent::Controller();
+	}
+	
+	public function index()
+	{
+		$0
+	} // End of index
+	
+} // End of $1 controller
+
+/* End of file $TM_FILENAME */
+/* Location: ./application/controllers/$TM_FILENAME */</string>
+	<key>name</key>
+	<string>Controller</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>controller</string>
+	<key>uuid</key>
+	<string>85B5BE81-7F20-4BF0-9838-2C0E95632665</string>
+</dict>
+</plist>

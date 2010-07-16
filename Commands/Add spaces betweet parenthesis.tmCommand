@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+
+$document = file_get_contents( 'php://stdin' );
+$lines    = explode( "\n", $document );
+$filename = $_ENV['TM_FILENAME'];
+$current_line = $_ENV['TM_LINE_NUMBER'];
+$current_column = $_ENV['TM_COLUMN_NUMBER'];
+
+foreach ( $lines as $line )
+{
+	$line = preg_replace( '/\(([^\s\)])/', '( $1', $line );
+	$line = preg_replace( '/\(([^\s\)])/', '( $1', $line );
+	$line = preg_replace( '/([^\s\(])\)/', '$1 )', $line );
+	$line = preg_replace( '/([^\s\(])\)/', '$1 )', $line );
+	$line = preg_replace( '/Copyright \( c \)/', 'Copyright (c)', $line );
+	echo $line . "\n";
+}</string>
+	<key>input</key>
+	<string>document</string>
+	<key>name</key>
+	<string>Add spaces betweet parenthesis</string>
+	<key>output</key>
+	<string>replaceDocument</string>
+	<key>uuid</key>
+	<string>EFDA34B0-45C5-421D-B635-579DCA17561E</string>
+</dict>
+</plist>

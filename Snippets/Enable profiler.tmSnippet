@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$this-&gt;output-&gt;enable_profiler(TRUE); // DEBUG &lt;-</string>
+	<key>name</key>
+	<string>Enable profiler</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>ciprofiler</string>
+	<key>uuid</key>
+	<string>B21FDA27-6914-48BD-A18E-772B08A9A616</string>
+</dict>
+</plist>
